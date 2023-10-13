@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#logo{
+    padding: 15px;
+}
+nav{
+    top: 0;
+    position: sticky;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    flex-direction: row;
+}
+
+input {
+    width: 65%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.finder {
+    background-image: url(./Iconos/search.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 16px;
+    height: 50px;
+    font-weight: normal;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    padding: 0px 30px;
+    background-color: aliceblue;
+    color: rgb(67, 67, 95);
+}
+
+#busqueda:focus{
+    background-image: none;
+}
+#notifications{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Iconos/bell.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#message{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Iconos/comment-alt-dots.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#profile-img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Iconos/user.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#Inicio {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+
+}
+#Inicio:hover {
+    background-color: rgb(22, 19, 49);
+    color: aliceblue;
+}
+#Explorar {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+
+#Explorar:hover {
+    background-color: rgb(22, 19, 49);
+    color: aliceblue;
+}
+
+#Crear {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+
+#Crear:hover {
+    background-color: rgb(22, 19, 49);
+    color: aliceblue;
+}
+
+
+.content {
+    justify-content: center;
+    margin-top: 89px;
+    max-width: 100vw;
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 10px 20px;
+}
+@media (max-width: 767px) {
+    .card-image {
+        columns: 3;
+    }
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    columns: 5 240px;
+    margin: auto;
+}    
+
+.card-image{
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    padding: 6px;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.topnav a.active {
+    background-color: rgb(132, 70, 190);
+    color: aliceblue;
+}
+.topnav {
+    position: sticky;
+    top: 0;
+}
+
+.topnav input[type=text] {
+    float: center;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 20px;
+    width: 50%;
+}
+
+.logo-image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
